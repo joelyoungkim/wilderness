@@ -1,0 +1,133 @@
+
+.navclass{
+	padding: 1px; /* To prevent that an unwanted block is created */
+	min-width: 320px;
+	text-align: center;
+	/*background-color: #F2F2E6;*/
+}
+
+.menucenter {
+	margin: 0px;
+	width: 100%;		/* should be matched with 'bodycenter' */ 
+	/*border: 3px solid black;*/
+	text-align: center;
+}
+
+ul.menu-header {
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  font-size: 10pt;
+  border-bottom: 2px solid #E8E8E8;
+  /*background-color: #F2F2E6;*/
+  /*border: 3px solid red;*/
+}
+
+ul.menu-header li {
+	float: left;
+	width: 23%;
+    /*border: 3px solid red;*/
+}
+
+ul.menu-header li a {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0px;
+	text-decoration: none;
+}
+
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	/*color: #ffffff;*/
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menuheader{
+    display: block;
+}
+
+
+/*@media screen and (min-width : 801px){*/
+@media screen and (min-width : 501px){
+
+}
+
+/* For tablets: */
+@media only screen and (max-width: 500px) {
+
+	ul.menu-header {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	ul.menu-header li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul.menu-header li, ul.menu-header li a {
+		width: 100%;
+	}
+
+	ul.product li, ul.product li a {
+		float: center;
+		width: 100%;
+		padding: 0px 0px;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	
+	ul.menu-header li a {
+		display: inline-block;
+		text-align: center;
+		padding: 10px 5px;
+		text-decoration: none;
+		//width: 70px;
+		//width: 75px;
+	}
+	
+	.menucenter {
+	  margin: auto;
+	  text-align: center;
+	  width: 90%;
+	  /*width: 320px;*/
+	  /*border: 3px solid #73AD21;*/
+	  /*padding: 10px;*/
+	  /*width:500px;*/ /* This is for IE5 & 7*/
+	}
+	div.grid-contentlist4 {
+		float: center;
+		width: 100%;
+	}
+	div.grid-contentlist5 {
+		float: center;
+		width: 100%;
+	}
+	
+	.footercenter {
+		width: 300px;
+	}
+}
+
+/*@media screen and (max-width : 800px){*/
+
+@media screen and (max-width : 760px){
+	.menucenter {
+		width: 100%;
+	}
+}
+
+
