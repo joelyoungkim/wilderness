@@ -1,0 +1,161 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.companyname {
+	position: absolute;
+	min-width: 315px;
+	padding: 10px 0 10px 10px;
+	//padding: 20px 0 10px; /* This is for IE5 & 7*/
+	//margin: 8px; /* This is for IE5 & 7.*/
+}
+
+.bodysidecenter {
+  margin: auto;
+  width: 80%;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  //width:95%; /* This is for IE5 & 7*/
+}
+
+.bodycenter {
+  margin: auto;
+  width: 80%;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  min-width: 350px;
+  //width:95%; /* This is for IE5 & 7*/
+}
+
+.menucenter {
+  margin: auto;
+  width: 320px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align: center;
+  //width:500px; /* This is for IE5 & 7*/
+}
+
+
+.titlecenter {
+  margin: auto;
+  border: 3px solid #73AD21;
+  text-align: center;
+  height: 80px;
+  padding: 15px 0px 0px 0px;
+  //padding: 10px 0 10px; /* This is for IE5 & 7*/
+}
+
+.titleimage {
+	max-width:320px;
+	border: 2px solid #73AD21;
+}
+.loginicon {
+  margin: auto;
+  border: 3px solid #73AD21;
+  height: 65px;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  //padding: 10px 0 10px; /* This is for IE5 & 7*/
+}
+.loginimage {
+	width: 90%;
+	//width: 170px; /* This is for IE5 & 7*/
+	max-width: 170px;
+	border: 2px solid red;
+}
+
+
+
+
+
+.footercenter {
+  margin: auto;
+  width: 80%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align: center;
+  //width:95%; /* This is for IE5 & 7*/
+}
+
+/*
+* Link Style
+*/
+a:link    {color:#384037; background-color:transparent; text-decoration:none}
+a:visited {color:#373C40; background-color:transparent; text-decoration:none}
+a:hover   {color:#6C6D80; background-color:transparent; text-decoration:none}
+a:active  {color:#403B37; background-color:transparent; text-decoration:none}
+
+ul.menu-header li {
+	float: left;
+	//float: center;
+}
+
+ul.menu-header li a {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 5px;
+	text-decoration: none;
+	width: 70px;
+	//width: 75px;
+}
+
+ul.menu-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E6E6F2;
+  font-size: 11pt;
+}
+
+ul.product {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@media screen and (min-width : 701px){
+	ul.product li {
+		float: left;
+		//float: left;
+	}
+}
+
+@media screen and (max-width : 700px){
+	ul.product li {
+		float: center;
+	}
+}
+
+ul.product li a {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 33px;
+	text-decoration: none;
+	color: #2a3131;
+}
+
+ul.product li a:hover {
+    background-color: #fff3e0;
+    color: black;
+}
+
+
+
+/*
+*
+*/
+.companyintro{
+	text-align: left;
+	background-color: blue;
+}
+.companyceoname {
+	text-align: right;
+}
+.companyloc {
+	text-align: left;
+	background-color: yellow;
+}
