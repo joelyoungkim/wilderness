@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="euc-kr">
+	<title>로그인 화면</title>
+	<link rel="stylesheet" href="css/basicstyle.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/menustyle.css">
+</head>
+<body>
+    <!--
+    <center>
+        <h3>로그인</h3>
+    </center>
+        -->
+    <div id="LoginDiv" class="modal">
+        <form class="Loginform" action="/Logini_Proc.php" method="post">
+            <h2>로그인 화면</h2>
+            <!--
+            <div class="LogInimgcontainer">
+                <img src="./img/Akiane-jesus.jpg" alt="Avatar" class="avatar">
+            </div>
+            -->
+            <center>
+                하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이라. <br>
+                하나님이 그 아들을 세상에 보내신 것은 세상을 심판하려 하심이 아니요 저로 말미암아 세상이 구원을 받게 하려 하심이라. <br>
+                -요한복음 3장 16 ~ 17절-
+            </center>
+            <div class="LoginFormContainer">
+                <label><b>Username</b></label>
+                <input type="text" style="border-color:aquamarine" placeholder="Enter Username" name="WildID" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="WildPW" required>
+                <button type="submit" class="Loginbutton">Login</button>
+            </div>
+
+            <div class="LoginFormContainer" style="background-color:#f1f1f1">
+                <button type="button" class="LoginCancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
